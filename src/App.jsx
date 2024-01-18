@@ -1,9 +1,10 @@
 import './App.css'
+import NotesList from './Components/NotesList'
 
 function App() {
   return (
-    <div>
-      
+    <div className="container">
+      <NotesList />
     </div>
   )
 }
