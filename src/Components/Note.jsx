@@ -1,13 +1,14 @@
 import React from 'react'
 import DeleteIcon from '../assets/delete-icon.png'
 
-export default function Note() {
+export default function Note({ id, text, date }) {
+  console.log(text)
   return (
     <div className="note">
-        <p>Hello! This is our first note!</p>
+        <p>{text}</p>
         <div className="note-footer">
-            <small>18/01/2024</small>
-            <img src={DeleteIcon} alt="Delete Icon" className="delete-icon" width="24px"/>
+            <small>{date}</small>
+            <img src={DeleteIcon} alt="Delete Icon" className="delete-icon" width="20px"/>
         </div>
     </div>
   )
