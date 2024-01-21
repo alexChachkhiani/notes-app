@@ -70,3 +70,7 @@ textarea:focus {
     background-color: #ffffff;
     cursor: pointer;
 }
+
+.delete-icon {
+    cursor: pointer;
+}
