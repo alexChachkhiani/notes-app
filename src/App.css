@@ -74,3 +74,22 @@ textarea:focus {
 .delete-icon {
     cursor: pointer;
 }
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color:#F1EFEF;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 1.5em;
+}
+
+.search-bar input {
+    font-family: "Outfit", "Arimo", sans-serif, serif;
+    border: none;
+    background-color: #F1EFEF;
+}
+
+.search-bar input:focus {
+    outline: none;
+}
