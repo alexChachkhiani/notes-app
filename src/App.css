@@ -21,6 +21,20 @@ body {
     word-wrap: break-word;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dark-mode {
+    background-color: rgb(50, 50, 50);
+}
+
+.dark-mode h1 {
+    color: white;
+}
+
 .note-footer {
     display: flex;
     align-items: center;
