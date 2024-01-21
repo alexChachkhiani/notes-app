@@ -34,7 +34,6 @@ function App() {
       text: text,
       date: date.toLocaleDateString()
     }
-
     const newNotes = [...notes, newNote]
     setNotes(newNotes)
   }
