@@ -94,3 +94,7 @@ textarea:focus {
 .search-bar input:focus {
     outline: none;
 }
+
+.search-bar--icon {
+    cursor: pointer;
+}
