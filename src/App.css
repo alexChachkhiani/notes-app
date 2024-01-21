@@ -76,6 +76,7 @@ textarea:focus {
 }
 
 .search-bar {
+    margin-top: 1.5em;
     display: flex;
     align-items: center;
     background-color:#F1EFEF;
