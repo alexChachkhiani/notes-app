@@ -10,22 +10,22 @@ function App() {
     {
       id: nanoid(),
       text: "This is my first note",
-      date: "19/01/2024"
+      date: "01/19/2024"
     },
     {
       id: nanoid(),
       text: "This is my second note",
-      date: "19/01/2024"
+      date: "01/19/2024"
     },
     {
       id: nanoid(),
       text: "This is my third note",
-      date: "19/01/2024"
+      date: "01/19/2024"
     },
     {
       id: nanoid(),
       text: "This is my new note",
-      date: "20/01/2024"
+      date: "01/20/2024"
     }
   ])
 

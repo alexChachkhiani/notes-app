@@ -28,11 +28,23 @@ body {
 }
 
 .dark-mode {
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(20, 20, 20);
 }
 
 .dark-mode h1 {
     color: white;
+}
+
+.dark-mode .note {
+    background-color: #94EBCD;
+}
+
+.dark-mode .note.new-note {
+    background-color: #FFEFA1;
+}
+
+.dark-mode textarea {
+    background-color: #FFEFA1;
 }
 
 .note-footer {
@@ -47,6 +59,7 @@ body {
     margin-left: auto;
     padding-right: 1rem;
     padding-left: 1rem;
+    min-height: 100vh;
 }
 
 .notes-list {
